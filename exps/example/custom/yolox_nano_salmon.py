@@ -23,8 +23,8 @@ class Exp(MyExp):
         self.enable_mixup = False
         self.exp_name = os.path.split(os.path.realpath(__file__))[1].split(".")[0]
         self.data_dir = 'datasets/salmon'
-        self.train_ann = 'annotations_trim.json'
-        self.val_ann = 'annotations_trim.json'
+        self.train_ann = 'annotations.json'
+        self.val_ann = 'annotations.json'
 
     def get_model(self, sublinear=False):
 
