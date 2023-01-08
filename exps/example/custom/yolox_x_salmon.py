@@ -17,3 +17,4 @@ class Exp(MyExp):
         self.data_dir = 'datasets/salmon'
         self.train_ann = 'annotations.json'
         self.val_ann = 'annotations.json'
+        self.save_history_ckpt = False
